@@ -7,6 +7,7 @@ cenám potravin v letech a průměrných platech v daných odvětvích.
 
 Do této tabulky se vkládají data díky skriptům Vlozeni_do_primaru_potraviny.sql a Vlozeni_do_primaru.sql.
 Dostupná data cen potravin jsou v letech 2006 až 2018. Data k mzdám jsou od roku 2000 do 2020, porovnání a analýza je tak proveda na společných letech.
+U některých potravin chyběla data, třeba "Jakostní víno bílé" mělo informace o cenách od roku 2015.
 
 Skript "Druha_tabulka_HDP.sql" vytváří tabulku s informacemi k HDP a Gini všech evropských zemí z dostupných dat.
 
