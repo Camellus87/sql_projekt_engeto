@@ -2,7 +2,7 @@ Kamil Hnátek
 Discord: irenicus87
 email: kamil.hnatek@gmail.com
 -------------------------------------------------------------------
-Projekt je zpracován tak, že skript "Projekt_vytvoreni_primarni_tabulky.sql" a vytvoří tabulku s informacemi k
+Projekt je zpracován tak, že skript "Projekt_vytvoreni_primarni_tabulky.sql" vytvoří prázdnou tabulku, kde se uloží informace k
 cenám potravin v letech a průměrných platech v daných odvětvích. 
 
 Do této tabulky se vkládají data díky skriptům Vlozeni_do_primaru_potraviny.sql a Vlozeni_do_primaru.sql.
