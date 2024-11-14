@@ -1,23 +1,17 @@
 Kamil Hnátek
+Verze: 1.1
 Discord: irenicus87
 email: kamil.hnatek@gmail.com
 -------------------------------------------------------------------
 Projekt je zpracován tak, že skript "Projekt_vytvoreni_primarni_tabulky.sql" a vytvoří tabulku s informacemi k
-cenám potravin v letech a průměrných platech v daných odvětvích. 
+cenám potravin v letech a průměrných platech v daných odvětvích.  Do této tabulky se zároveň vloží data díky INSERTU v daném SQL.
 
-Do této tabulky se vkládají data díky skriptům Vlozeni do primaru potraviny.sql a Vlozeni_do_primaru.sql.
 Dostupná data cen potravin jsou v letech 2006 až 2018. Data k mzdám jsou od roku 2000 do 2020, porovnání a analýza je tak proveda na společných letech.
 
 Skript "Druha tabulka HDP.sql" vytváří tabulku s informacemi k HDP a Gini všech evropských zemí z dostupných dat.
 
 Postup:
-1. spusť skript v Projekt_vytvoreni_primarni_tabulky.sql
-2. spusť skript v Druha tabulka HDP.sql
-3. spusť skript Vlozeni_do_primaru.sql - toto ti vloží data ohledně mezd v ČR
-4. spusť skript Vlozeni do primaru potraviny.sql - toto ti vloží data ohledně cen potravin v letech 2006 - 2018
-5. otevři si skript View - projekt.sql, kde jsou vypsány jednotlivá VIEW zobrazující data z vytvořených tabulek výše, tyto VIEW ti pomohou zodpovědět stanovené otázky
-
-Veškeré potřebné informace a odpovědi na dané otázky tak lze zodpovědět díky skriptu "View - projekt.sql",
-kde je podrobně popsáno, které VIEW generuje které informace zodpovídajícíc stanovené otázky.
-
-Analýza těchto dat je i proveda v přiloženém excelu "SQL projekt analýza.xls" pomocí grafů a tabulek.
+1. spusť skripty v Projekt_vytvoreni_primarni_tabulky.sql, ty vytvoří tabulku a vloží data
+2. spusť skripty v Druha tabulka HDP.sql, ty vytvoří druhou tabulku s HDP a vloží data
+3. Otevírej jednotlivé skripty View_1, View_2, View_3, View_4 a View_5, ty ti odpovídají na stanovené otázky.
+4. Udělej si analýzu dat a přečti si shrnutí v přiloženém "SQL projekt analýza.xls"
