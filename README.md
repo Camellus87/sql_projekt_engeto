@@ -1,9 +1,9 @@
-Kamil Hnátek
-Discord: irenicus87
-email: kamil.hnatek@gmail.com
-projekt: SQL projekt
-verze: 1.1
--------------------------------------------------------------------
+Kamil Hnátek  
+Discord: irenicus87  
+email: kamil.hnatek@gmail.com  
+projekt: SQL projekt  
+verze: 1.1  
+-------------------------------------------------------------------  
 Projekt je zpracován tak, že skript "Projekt_vytvoreni_primarni_tabulky.sql" a vytvoří tabulku s informacemi k
 cenám potravin v letech a průměrných platech v daných odvětvích.  Do této tabulky se zároveň vloží data díky INSERTU v daném SQL.
 
